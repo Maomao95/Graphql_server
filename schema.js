@@ -10,7 +10,7 @@ const {
   GraphQLNonNull
 } = require("graphql");
 
-// Launch Type
+// Dessert Type
 const DessertType = new GraphQLObjectType({
   name: "Dessert",
   fields: () => ({
@@ -22,7 +22,7 @@ const DessertType = new GraphQLObjectType({
   })
 });
 
-// Rocket Type
+// Nutrition Type
 const NutritionType = new GraphQLObjectType({
   name: "Nutrition",
   fields: () => ({
